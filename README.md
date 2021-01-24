@@ -11,11 +11,18 @@ Name:
 Student Number: 
 Section: 
 
-Include your ER model (as an image and links to any raw files)
 
 
 
-Include your relational model (as an image and links to any raw files)
+Include your ER model (as an image and links to any raw files):
+
+
+![](Images/ER_model.png)
+
+
+Include your relational model (as an image and links to any raw files):
+
+![](Images/Relational_model.png)
 
 Instructions on how you created your ER and Relational model
 A reference to your SQL schema (and how to run it)
