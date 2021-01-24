@@ -12,7 +12,7 @@ Student Number:
 Section: 
 
 Include your ER model (as an image and links to any raw files)
-![alt text](http://url/to/img.png)
+
 
 
 Include your relational model (as an image and links to any raw files)
