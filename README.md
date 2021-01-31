@@ -209,7 +209,7 @@ We deleted the athlete with the last name Test3
 DELETE FROM athlete
 WHERE dateofbirth='1998-07-22';
 ```
-<mark>Marked text</mark>
+
 We have deleted the athlete that was born on the date 1998-07-22
 
  firstname | lastname | dateofbirth | sex
