@@ -129,7 +129,7 @@ We changed to first name from Sab to Sabina of the athlete with the last name Te
 -----------|----------|-------------|-----
  Bob2      | Test2    | 1998-07-22  | M
  Bob       | Test1    | 1997-07-22  | M
- + **Sabrina**   | **Test3**    | **1999-07-22**  | **F**
+ + **Sabrina** +   | **Test3**    | **1999-07-22**  | **F**
 
 
 ### SELECT
