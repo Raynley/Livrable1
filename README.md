@@ -1,68 +1,123 @@
-List team members including names, and student numbers
-Student name: 
-Student number: 
-Course code: 
+#University project
 
-Student name: 
-Student number: 
-Course code: 
-
-Name: 
-Student Number: 
-Section: 
+| Name | Student Number |
+| ---| --- |
+| ---| --- |
+| ---| --- |
+| Moumin Farah | 300026540 |
+| André Marie Mishindu Kabeya | 300067899 |
+| Joseph Nikuzabo | 300115712 |
 
 
 
+## Liverable1
 
-Include your ER model (as an image and links to any raw files):
 
+### ER Diagram
+
+The ER was created with [LucidChart](https://lucid.app)
 
 ![](Images/ER_model.png)
 
 
-Include your relational model (as an image and links to any raw files):
+
+### Ralational Diagram
+
+The relational model was created with [LucidChart](https://lucid.app)
 
 ![](Images/Relational_model.png)
 
-Instructions on how you created your ER and Relational model
-A reference to your SQL schema (and how to run it)
-Additional example queries to show INSERT, UPDATE, SELECT, DELETE on your database
 
 
-- Exemple SQL pour insertion de données
+### Schema SQL
 
+The database was created using Postgres. 
+```
+bash
+> create database athlete;
+```
+
+
+The following sql will create the athlete schema
+
+```sql
+CREATE TABLE athlete(
+  firstName varchar(50) ,
+  lastName varchar(50) ,
+  dateOfBirth date,
+  sex char(1)
+ );
+```
+
+
+
+### Exemple SQL
+
+### INSERT
+
+```
+sql
 INSERT INTO athlete (FirstName, LastName, DateOfBirth, Sex)
 
 VALUES
 	('Bob','Test','1997-07-22','M'),
         ('Bob2','Test2','1998-07-22','M'),
 	('Sab','Test3','1999-07-22','F');
+```
 
-- Exemple SQL pour mettre-à-jour les données
+### UPDATE
 
+```
+sql
 UPDATE athlete
 SET lastname = 'Test1'
 WHERE firstname='Bob';
+```
 
+```
+sql
 UPDATE athlete
 SET firstName='Sabrina'
 WHERE lastname='Test3';
+```
 
 
-- Exemple SQL pour sélectionner les données
+### SELECT
 
+```
+sql
 SELECT * FROM athlete;
+```
+
+```
+sql
 SELECT firstName FROM athlete;
+```
+
+```
+sql
 SELECT sex FROM athlete;
-SELECT dateofbirth FROM athlete WHERE firstName='Bob';
+```
 
-- Exemple SQL pour effacer les données
+```
+sql
+SELECT dateofbirth FROM athlete 
+    WHERE firstName='Bob';
+```
 
+### DELETE
+
+```
+sql
 DELETE FROM athlete
 WHERE lastname='Test3';
+```
 
+```
+sql
 DELETE FROM athlete
 WHERE dateofbirth='1998-07-22';
+```
 
 
 
