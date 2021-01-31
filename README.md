@@ -6,7 +6,7 @@
 | André Marie Mishindu Kabeya | 300067899 |
 | Joseph Nikuzabo | 300115712 |
 
- firstname | lastname | dateofbirth | sex
+ |firstname | lastname | dateofbirth | sex
 -----------+----------+-------------+-----
 
 ## Liverable1
