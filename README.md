@@ -1,4 +1,5 @@
 # University project
+- List team members including names, and student numbers
 
 | **Name** | **Student Number** |
 | ---| --- |
@@ -7,12 +8,6 @@
 | Joseph Nikuzabo | 300115712 |
 
  
- firstname | lastname | dateofbirth | sex
-|-----------|----------|-------------|-----|
- Bob       | Test     | 1997-07-22  | M
- Bob2      | Test2    | 1998-07-22  | M
- Sab       | Test3    | 1999-07-22  | **F**
-
 
 ## Liverable1
 
