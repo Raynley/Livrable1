@@ -1,9 +1,9 @@
 # University project
 
-| Name | Student Number |
+| **Name** | **Student Number** |
 | ---| --- |
 | Moumin Farah | 300026540 |
-| **André Marie Mishindu Kabeya** | 300067899 |
+| André Marie Mishindu Kabeya | 300067899 |
 | Joseph Nikuzabo | 300115712 |
 
  
