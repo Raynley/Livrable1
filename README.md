@@ -6,6 +6,12 @@
 | André Marie Mishindu Kabeya | 300067899 |
 | Joseph Nikuzabo | 300115712 |
 
+|firstname | lastname | dateofbirth | sex
+|-----------|----------|-------------|-----
+ Bob       | Test     | 1997-07-22  | M
+ Bob2      | Test2    | 1998-07-22  | M
+ Sab       | Test3    | 1999-07-22  | F
+
 
  
 
