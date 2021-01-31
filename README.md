@@ -11,6 +11,7 @@ List team members including names, and student numbers
 
 ## Liverable1
 
+
 ### ER Diagram
 
 - Creating a (simplified) ER model
@@ -20,6 +21,7 @@ List team members including names, and student numbers
 The ER was created with [LucidChart](https://lucid.app)
 
 ![](Images/ER_model.png)
+
 
 
 ### Ralational Diagram
@@ -34,9 +36,11 @@ The relational model was created with [LucidChart](https://lucid.app)
 
 
 
+
 ### Schema SQL
 
 - A reference to your SQL schema (and how to run it)
+
 
 The database was created using Postgres. 
 ```bash
@@ -50,6 +54,7 @@ The following sql will create the athlete schema
 and identified gender
 
 - Implementing the SQL schema (based on your relational model) to create your database
+
 
 ```sql
 CREATE TABLE athlete(
@@ -74,6 +79,7 @@ This is what our created table looks like
 
 ### INSERT
 
+
 ```sql
 INSERT INTO athlete (FirstName, LastName, DateOfBirth, Sex)
 VALUES
@@ -94,6 +100,7 @@ Now we have 3 athletes in our database.
 
 ### UPDATE
 
+
 ```sql
 UPDATE athlete
 SET lastname = 'Test1'
@@ -107,6 +114,8 @@ The last name of bob has been updated from Test to Test1
  Bob2      | Test2    | 1998-07-22  | M
  Sab       | Test3    | 1999-07-22  | F
  Bob       | Test1    | 1997-07-22  | M
+
+
 
 
 ```sql
@@ -125,6 +134,7 @@ We changed to first name from Sab to Sabina of the athlete with the last name Te
 
 ### SELECT
 
+
 ```sql
 SELECT * FROM athlete;
 ```
@@ -135,6 +145,8 @@ Select all the fields available in the table
  Bob2      | Test2    | 1998-07-22  | M
  Bob       | Test1    | 1997-07-22  | M
  Sabrina   | Test3    | 1999-07-22  | F
+
+
 
 
 ```sql
@@ -149,6 +161,7 @@ Selected just the firstname field in the table
  Sabrina
 
 
+
 ```sql
 SELECT sex FROM athlete;
 ```
@@ -160,6 +173,7 @@ Selected just the sex field in the table
  M
  M
  F
+
 
 ```sql
 SELECT dateofbirth FROM athlete 
@@ -176,6 +190,7 @@ Select the field dateofbirth  of the athlete with the first name Bob
 
 ### DELETE
 
+
 ```sql
 DELETE FROM athlete
 WHERE lastname='Test3';
@@ -187,6 +202,7 @@ We deleted the athlete with the last name Test3
 -----------|----------|-------------|-----
  Bob2      | Test2    | 1998-07-22  | M
  Bob       | Test1    | 1997-07-22  | M
+
 
 
 ```sql
