@@ -1,8 +1,8 @@
 # University project
 
-- List team members including names, and student numbers
+List team members including names, and student numbers
 
-| Name | Student Number |
+| **Name** | **Student Number** |
 | ---| --- |
 | Moumin Farah | 300026540 |
 | André Marie Mishindu Kabeya | 300067899 |
