@@ -1,5 +1,4 @@
 # University project
-- List team members including names, and student numbers
 
 | **Name** | **Student Number** |
 | ---| --- |
