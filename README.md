@@ -198,8 +198,7 @@ We deleted the athlete with the last name Test3
  Bob       | Test1    | 1997-07-22  | M
 
 
-```
-sql
+```sql
 DELETE FROM athlete
 WHERE dateofbirth='1998-07-22';
 ```
