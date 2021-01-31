@@ -39,8 +39,7 @@ The relational model was created with [LucidChart](https://lucid.app)
 - A reference to your SQL schema (and how to run it)
 
 The database was created using Postgres. 
-```
-bash
+```bash
 > create database athlete;
 ```
 
@@ -75,10 +74,8 @@ This is what our created table looks like
 
 ### INSERT
 
-```
-sql
+```sql
 INSERT INTO athlete (FirstName, LastName, DateOfBirth, Sex)
-
 VALUES
 	('Bob','Test','1997-07-22','M'),
         ('Bob2','Test2','1998-07-22','M'),
@@ -97,8 +94,7 @@ Now we have 3 athletes in our database.
 
 ### UPDATE
 
-```
-sql
+```sql
 UPDATE athlete
 SET lastname = 'Test1'
 WHERE firstname='Bob';
@@ -113,8 +109,7 @@ The last name of bob has been updated from Test to Test1
  Bob       | Test1    | 1997-07-22  | M
 
 
-```
-sql
+```sql
 UPDATE athlete
 SET firstName='Sabrina'
 WHERE lastname='Test3';
@@ -130,8 +125,7 @@ We changed to first name from Sab to Sabina of the athlete with the last name Te
 
 ### SELECT
 
-```
-sql
+```sql
 SELECT * FROM athlete;
 ```
 Select all the fields available in the table
@@ -142,12 +136,12 @@ Select all the fields available in the table
  Bob       | Test1    | 1997-07-22  | M
  Sabrina   | Test3    | 1999-07-22  | F
 
+
+```sql
+SELECT firstName FROM athlete;
 ```
 Selected just the firstname field in the table
 
-sql
-SELECT firstName FROM athlete;
-```
  |firstname|
 |----------|
  Bob2
@@ -155,8 +149,7 @@ SELECT firstName FROM athlete;
  Sabrina
 
 
-```
-sql
+```sql
 SELECT sex FROM athlete;
 ```
 
@@ -168,8 +161,7 @@ Selected just the sex field in the table
  M
  F
 
-```
-sql
+```sql
 SELECT dateofbirth FROM athlete 
     WHERE firstName='Bob';
 ```
@@ -184,8 +176,7 @@ Select the field dateofbirth  of the athlete with the first name Bob
 
 ### DELETE
 
-```
-sql
+```sql
 DELETE FROM athlete
 WHERE lastname='Test3';
 ```
