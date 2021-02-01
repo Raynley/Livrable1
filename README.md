@@ -44,6 +44,7 @@ The relational model was created with [LucidChart](https://lucid.app)
 
 The database was created using Postgres. 
 ```bash
+psql
 > create database athlete;
 ```
 
