@@ -65,10 +65,6 @@ CREATE TABLE athlete(
  );
 ```
 
-This is what our created table looks like 
-
- firstname | lastname | dateofbirth | sex
------------|----------|-------------|-----
 
 
 
